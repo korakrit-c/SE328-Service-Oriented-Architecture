@@ -1,0 +1,90 @@
+Time : 23:22:55
+SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`webservice_requisition`.`product`, CONSTRAINT `fk_Product_Branch1` FOREIGN KEY (`Branch_ID`, `Company_ID`) REFERENCES `branch` (`Branch_ID`, `Company_ID`) ON DELETE NO ACTION ON UPDATE NO ACT)
+Raw SQL : INSERT INTO product (product_name,product_price,product_inhand)
+                VALUES(?,?,'9999')
+
+Time : 22:49:38
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'JOIN product ON lineitem.Product_ID=product.Product_ID' at line 3
+Raw SQL : SELECT product.product_name, lineitem.lineitem_qty, lineitem.lineitem_total
+    FROM lineitem WHERE requisition_id = 1
+    JOIN product ON lineitem.Product_ID=product.Product_ID
+
+Time : 22:49:34
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'JOIN product ON lineitem.Product_ID=product.Product_ID' at line 3
+Raw SQL : SELECT product.product_name, lineitem.lineitem_qty, lineitem.lineitem_total
+    FROM lineitem WHERE requisition_id = 1
+    JOIN product ON lineitem.Product_ID=product.Product_ID
+
+Time : 22:49:34
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'JOIN product ON lineitem.Product_ID=product.Product_ID' at line 3
+Raw SQL : SELECT product.product_name, lineitem.lineitem_qty, lineitem.lineitem_total
+    FROM lineitem WHERE requisition_id = 1
+    JOIN product ON lineitem.Product_ID=product.Product_ID
+
+Time : 22:49:33
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'JOIN product ON lineitem.Product_ID=product.Product_ID' at line 3
+Raw SQL : SELECT product.product_name, lineitem.lineitem_qty, lineitem.lineitem_total
+    FROM lineitem WHERE requisition_id = 1
+    JOIN product ON lineitem.Product_ID=product.Product_ID
+
+Time : 22:49:33
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'JOIN product ON lineitem.Product_ID=product.Product_ID' at line 3
+Raw SQL : SELECT product.product_name, lineitem.lineitem_qty, lineitem.lineitem_total
+    FROM lineitem WHERE requisition_id = 1
+    JOIN product ON lineitem.Product_ID=product.Product_ID
+
+Time : 22:49:32
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'JOIN product ON lineitem.Product_ID=product.Product_ID' at line 3
+Raw SQL : SELECT product.product_name, lineitem.lineitem_qty, lineitem.lineitem_total
+    FROM lineitem WHERE requisition_id = 1
+    JOIN product ON lineitem.Product_ID=product.Product_ID
+
+Time : 22:48:03
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INNER JOIN product ON lineitem.Product_ID=product.Product_ID' at line 3
+Raw SQL : SELECT product.product_name, lineitem.lineitem_qty, lineitem.lineitem_total
+    FROM lineitem WHERE requisition_id = 1
+    INNER JOIN product ON lineitem.Product_ID=product.Product_ID
+
+Time : 22:47:58
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'JOIN product ON lineitem.Product_ID=product.Product_ID' at line 3
+Raw SQL : SELECT product.product_name, lineitem.lineitem_qty, lineitem.lineitem_total
+    FROM lineitem WHERE requisition_id = 1
+    JOIN product ON lineitem.Product_ID=product.Product_ID
+
+Time : 22:47:14
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'JOIN product ON lineitem.Product_ID = product.Product_ID' at line 3
+Raw SQL : SELECT product.product_name, lineitem.lineitem_qty, lineitem.lineitem_total
+    FROM lineitem WHERE requisition_id = 1
+    JOIN product ON lineitem.Product_ID = product.Product_ID
+
+Time : 22:46:49
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'JOIN product ON lineitem.Product_ID = product.Product_Name' at line 3
+Raw SQL : SELECT product.product_name, lineitem.lineitem_qty, lineitem.lineitem_total
+    FROM lineitem WHERE requisition_id = 1
+    JOIN product ON lineitem.Product_ID = product.Product_Name
+
+Time : 22:46:49
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'JOIN product ON lineitem.Product_ID = product.Product_Name' at line 3
+Raw SQL : SELECT product.product_name, lineitem.lineitem_qty, lineitem.lineitem_total
+    FROM lineitem WHERE requisition_id = 1
+    JOIN product ON lineitem.Product_ID = product.Product_Name
+
+Time : 22:46:44
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'JOIN product ON lineitem.Product_ID = product.Product_Name' at line 3
+Raw SQL : SELECT product.product_name, lineitem.lineitem_qty, lineitem.lineitem_total
+    FROM lineitem WHERE requisition_id = 1
+    JOIN product ON lineitem.Product_ID = product.Product_Name
+
+Time : 22:41:20
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'JOIN product ON lineitem.Product_ID = product.Product_Name' at line 2
+Raw SQL : SELECT * FROM lineitem WHERE requisition_id = 1
+    JOIN product ON lineitem.Product_ID = product.Product_Name
+
+Time : 22:41:18
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'JOIN product ON lineitem.Product_ID = product.Product_Name' at line 2
+Raw SQL : SELECT * FROM lineitem WHERE requisition_id = 1
+    JOIN product ON lineitem.Product_ID = product.Product_Name
+
+Time : 22:40:36
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'JOIN product ON lineitem.Product_ID = product.Product_Name' at line 1
+Raw SQL : SELECT * FROM lineitem WHERE requisition_id = ? JOIN product ON lineitem.Product_ID = product.Product_Name

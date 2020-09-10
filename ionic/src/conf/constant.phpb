@@ -1,0 +1,18 @@
+<?php
+return [
+    'settings' => [
+        // Slim Settings
+        'determineRouteBeforeAppMiddleware' => false,
+        'displayErrorDetails' => true,
+        'db' => [
+            'driver' => 'mysql',
+            'hostname' => 'localhost',
+            'database' => 'webservice_requisition',
+            'username' => 'root',
+            'password' => '',
+            'charset'   => 'utf8',
+            'collation' => 'utf8_general_ci',
+            'prefix'    => '',
+        ]
+    ],
+];
